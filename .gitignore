@@ -1,0 +1,30 @@
+# ===== Python 缓存与构建产物 =====
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# ===== 训练与推理产物 =====
+runs/
+work_dirs/
+*.pth
+*.pt
+*.onnx
+*.engine
+*.log
+
+# ===== 编辑器与系统文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+
+# ===== 说明 =====
+# 本仓库按要求收录 test_data 全量数据（2991 张 jpg + 2991 个 txt 标签）。
+# 若后续改为不收录图片，取消下一行注释即可：
+# test_data/images/
