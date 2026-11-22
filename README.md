@@ -8,7 +8,7 @@ This repository provides the reproducibility materials for the manuscript:
 
 - `code/`: FMD-YOLO implementation based on Ultralytics YOLOv8.2.42
 - `code/train.py`: training entry script and the hyperparameters used in the manuscript
-- `test_data/`: held-out test images and YOLO-format annotations
+- `test_data/`: test-set images and YOLO-format annotations
 - `prompt_zh.txt`: Chinese prompt template used for video generation
 - `prompt_eng.txt`: English translation of the prompt template
 - `code/ultralytics/cfg/models/v8/yolov8l-decoupledhead_with_C2fFM.yaml`:
